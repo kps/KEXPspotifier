@@ -30,3 +30,9 @@ Unfortunately, I don't see a direct way of parameterizing these applet variables
   * For every subsequent run of that show, it merges the latest into an archive, and creates a new 'Latest' playlist
 
 
+## Credits
+
+Thanks to KEXP's DJs and staff -- their work inspired this! ** GO SUPPORT KEXP [HERE](https://www.kexp.org/donate) ** 
+
+Only a few lines of code, but this has been tiny labor of love in building some automation tooling that I wanted for myself, and hopefully others find it useful as well! 
+
