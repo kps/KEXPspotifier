@@ -18,7 +18,9 @@ if (tweetDayOfWeek == showDayOfWeek
   // let playlistName =  playlistPrefix + tweetTime.format('YYYY-MM-DD')
   let playlistName =  playlistPrefix + 'Archive'
   Spotify.addATrackToAPlaylist.setPlaylist(playlistName)
-  let trackInfoParts = Twitter.newTweetByUser.Text.split(' - ')
+  // TODO: Why is IFTTT giving back HTML encoded bits in Text?
+  let decodedTrackText = Twitter.newTweetByUser.Text.replace(/&amp;/g, '&');
+  let trackInfoParts = decodedTrackText.split(' - ')
   // Pattern guess on #kexpnowplaying tweets -- 
   // e.g. 'Shake Some Action! - Waiting For The Sun - Crash Through or Crash (2017)'
   // 0: Artist
