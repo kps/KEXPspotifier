@@ -1,5 +1,5 @@
 # KEXPspotifier
-[IFTTT](https://ifttt.com) Applet code for converting [KEXP](kexp.org)'s playlist stream into a Spotify playlist as a show archive
+[IFTTT](https://ifttt.com) Applet code for converting [KEXP](https://kexp.org)'s playlist stream into a Spotify playlist as a show archive
 
 ## Wait, what? What does this thing do?
 1. KEXP publishes their playlist as track metadata to twitter [@kexplaylist](https://twitter.com/kexpplaylist)
